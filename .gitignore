@@ -1,0 +1,15 @@
+# .NET binary 
+bin
+obj
+
+# VS Code
+.vscode
+
+# Sqlite DB
+*.db
+
+# MAC OS
+.DS_Store
+
+# Configuration
+appSettings.*
