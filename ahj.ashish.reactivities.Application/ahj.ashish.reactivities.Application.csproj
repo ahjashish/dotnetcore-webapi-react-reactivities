@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\ahj.ashish.reactivities.Persistence\ahj.ashish.reactivities.Persistence.csproj" />
+    <ProjectReference Include="..\ahj.ashish.reactivities.Persistence\ahj.ashish.reactivities.Persistence.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
-
 </Project>

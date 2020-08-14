@@ -1,5 +1,4 @@
-﻿using System;
-using ahj.ashish.reactivities.Domain;
+﻿using ahj.ashish.reactivities.Domain;
 using Microsoft.EntityFrameworkCore;
 
 namespace ahj.ashish.reactivities.Persistence
@@ -12,6 +11,7 @@ namespace ahj.ashish.reactivities.Persistence
         }
 
         public DbSet<Value> Values { get; set; }
+        public DbSet<Activity> Activities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
