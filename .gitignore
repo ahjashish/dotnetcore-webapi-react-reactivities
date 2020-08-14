@@ -13,3 +13,6 @@ obj
 
 # Configuration
 appSettings.*
+
+# Node
+node_modules
